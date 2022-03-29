@@ -2,3 +2,4 @@ streamlit
 tensorflow
 scikit-learn
 wget
+click==8
