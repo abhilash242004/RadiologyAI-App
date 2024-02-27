@@ -7,7 +7,7 @@ import wget
 import zipfile
 class_names = ["COVID-19", "Normal", "Pneumonia"]
 
-@st.cache_data(suppress_st_warning=True)
+@st.cache
 
 def predict(model_path):
     
